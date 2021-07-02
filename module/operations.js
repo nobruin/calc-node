@@ -3,7 +3,9 @@ _dealWithResult = function (number){
     let result = parseInt(number);
 
     if(isNaN(result)){
-        throw new Error("Invalid Operation");
+        //throw new Error("Invalid Operation");
+        //console.error("Invalid Operation");
+        return "Invalid Operation";
     }
 
     return result;
